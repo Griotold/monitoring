@@ -11,3 +11,9 @@ management:
     web:
       exposure:
         include: "*"
+
+# tomcat metric
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
