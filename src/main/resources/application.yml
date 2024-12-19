@@ -1,0 +1,10 @@
+# actuator 에서 모든 엔드포인트 노출
+## shutdown 기능 활성화
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
